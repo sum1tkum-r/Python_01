@@ -9,7 +9,7 @@ print(False or False)  # False
 print(not True)        # False
 print(not False)       # True
 
-# Question:
+# Question 1:
 age = 20
 has_license = True
 
@@ -17,3 +17,15 @@ result = age >= 18 and has_license
 
 # Don't change the line below
 print("Eligible to drive:", result)
+
+# Question 2:
+
+# Replace the values with numbers
+b1 = 2
+b2 = 3
+
+# This line checks if b1 * b2 is greater than b1 + b2
+b3 = (b1 * b2) > (b1 + b2)
+
+# Don't change the line below
+print(f"b3 = {b3}")
